@@ -1,0 +1,905 @@
+.actions {
+    left: 142px; 
+    top: 1794px; 
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.actionsInner {
+    display: flex;
+    gap: 100px;
+    width: 100%; /* ширина слайдера будет в 3 раза больше, чем контейнера */
+    animation: slide 10s infinite linear; /* анимация будет повторяться бесконечно в течение 10 секунд */
+    animation-delay: 2s;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    
+    50% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 630px;
+    height: 1000px;  
+
+    width: 100%;
+    transition:all 1s;
+    margin-bottom: 50px;
+}
+
+.buyStar {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.buyName {
+    width: 630px;
+}
+
+.website {
+    width: 90%; 
+    height: auto; 
+    position: absolute;
+    left: 5%; 
+    background: white;
+}
+.logo {
+    width: 365px; 
+    height: 365px; 
+    left: 55px; 
+    top: 15px; 
+    position: absolute
+}
+.logo1 {
+    width: 376.54px; 
+    height: 63.28px;
+    left: 55.42px; 
+    top: 380px; 
+    position: absolute; 
+    color: black; 
+    font-size: 64px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.slogan {
+    width: 829px; 
+    height: 50px; 
+    left: 661px; 
+    top: 127px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.vxod {
+    width: 92px; 
+    height: 89px; 
+    left: 1758px; 
+    top: 88px; 
+    position: absolute
+}
+.vxod1 {
+    width: 106px; 
+    height: 50px; 
+    left: 1751px; 
+    top: 187px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.korzina {
+    width: 92px; 
+    height: 89px; 
+    left: 2028px; 
+    top: 88px; 
+    position: absolute
+}
+.korzina1 {
+    width: 150px; 
+    height: 50px; 
+    left: 1999px; 
+    top: 189px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.o_nas {
+    width: 330px; 
+    height: 116px; 
+    left: 189px; 
+    top: 494px; 
+    position: absolute; 
+    color: black; 
+    font-size: 96px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.katalog {
+    width: 397px; 
+    height: 70px; 
+    left: 916px; 
+    top: 494px; 
+    position: absolute; 
+    color: black; 
+    font-size: 96px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.gde_nas_naity {
+    width: 600px; 
+    height: 232px; 
+    left: 1551px; 
+    top: 436px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 96px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.image1 {
+    width: 1313px; 
+    height: 841px; 
+    left: 51px; 
+    top: 728px; 
+    position: absolute
+}
+.image2 {
+    width: 767px; 
+    height: 427px; 
+    left: 1412px; 
+    top: 728px; 
+    position: absolute
+}
+.image3 {
+    width: 446px; 
+    height: 223px; 
+    left: 1577px; 
+    top: 1260px; 
+    position: absolute
+}
+.strelka_right {
+    width: 91px; 
+    height: 88px; 
+    left: 2088px; 
+    top: 1307px; 
+    position: absolute
+}
+.strelka_left {
+    width: 91.39px; 
+    height: 87.90px; 
+    left: 1425px; 
+    top: 1307px; 
+    position: absolute
+}
+.darim {
+    width: 245px; 
+    height: 84px; 
+    left: 708px; 
+    top: 1033px; 
+    position: absolute; 
+    text-align: center; 
+    color: white; 
+    font-size: 64px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.a2000 {
+    width: 355px; 
+    height: 163px; 
+    left: 675px; 
+    top: 1119px; 
+    position: absolute; 
+    text-align: center; 
+    color: #FE7211; 
+    font-size: 128px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.check-list {
+    width: 631px; 
+    height: 69px; 
+    left: 725px; 
+    top: 1282px; 
+    position: absolute; 
+    color: white; 
+    font-size: 64px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.otdix {
+    width: 576px; 
+    height: 51px; 
+    left: 725px; 
+    top: 1369px; 
+    position: absolute; 
+    color: white; 
+    font-size: 48px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.dostavka {
+    width: 593px; 
+    height: 102px; 
+    left: 1430px; 
+    top: 1053px; 
+    position: absolute; 
+    color: white; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.gamaki {
+    width: 184px; 
+    height: 51px; 
+    left: 1702px; 
+    top: 1483px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 48px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.akchii {
+    width: 453px; 
+    height: 135px; 
+    left: 164px; 
+    top: 1659px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 128px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.strelka_right1 {
+    width: 92px; 
+    height: 87px; 
+    left: 2005px; 
+    top: 1680px; 
+    position: absolute
+}
+.strelka_left1 {
+    width: 91.39px; 
+    height: 87.90px; 
+    left: 1890px; 
+    top: 1680px; 
+    position: absolute;
+}
+.image4 {
+    width: 549px; 
+    height: 703px; 
+    left: 142px; 
+    top: 1794px; 
+    position: absolute
+}
+.image10 {
+    width: 549px; 
+    height: 703px; 
+    left: 835px; 
+    top: 1794px; 
+    position: absolute
+}
+.image16 {
+    width: 549px; 
+    height: 703px; 
+    left: 1576px; 
+    top: 1794px; 
+    position: absolute
+}
+
+.buySum {
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+}
+.buyReview {
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+}
+.buyName {
+    color: black; font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+}
+.a13990 {
+    width: 251px; 
+    height: 51px; 
+    left: 835px; 
+    top: 2526px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600;
+    word-wrap: break-word
+}
+.otziv0 {
+    width: 146px; 
+    height: 35px; 
+    left: 1132px;
+    top: 2610px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.DeuterOrbit5LMandarineInk {
+    width: 549px; 
+    height: 67px; 
+    left: 835px; 
+    top: 2669px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.a19680 {
+    width: 248px; 
+    height: 51px; 
+    left: 1576px;
+    top: 2526px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.otziv0_1 {
+    width: 146px; 
+    height: 35px; 
+    left: 1873px; 
+    top: 2610px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; word-wrap: break-word
+}
+.KlymitInsulatedVUltraliteSl {
+    width: 598px; 
+    height: 67px; 
+    left: 1576px; 
+    top: 2669px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.rasprodazha {
+    width: 735px; 
+    height: 137px; 
+    left: 142px; 
+    top: 2864px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 128px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.strelka_right2 {
+    width: 92px; 
+    height: 88px; 
+    left: 2005px; 
+    top: 2889px; 
+    position: absolute
+}
+.strelka_left2 {
+    width: 91.39px; 
+    height: 87.90px; 
+    left: 1890px; 
+    top: 2889px; 
+    position: absolute;
+}
+.image23 {
+    width: 549px; 
+    height: 702px; 
+    left: 142px; 
+    top: 3001px; 
+    position: absolute
+}
+.image29 {
+    width: 549px; 
+    height: 702px; 
+    left: 835px; 
+    top: 3001px; 
+    position: absolute
+}
+.image36 {
+    width: 549px; 
+    height: 702px; 
+    left: 1576px; 
+    top: 3001px; 
+    position: absolute
+}
+.image24 {
+    width: 47px; 
+    height: 44px; 
+    left: 142px; 
+    top: 3807px; 
+    position: absolute
+}
+.image25 {
+    width: 46px; 
+    height: 44px; 
+    left: 201px; 
+    top: 3807px; 
+    position: absolute
+}
+.image26 {
+    width: 45px; 
+    height: 44px; 
+    left: 260px; 
+    top: 3807px; 
+    position: absolute
+}
+.image27 {
+    width: 46px; 
+    height: 44px; 
+    left: 318px; 
+    top: 3807px; 
+    position: absolute
+}
+.image28 {
+    width: 45px; 
+    height: 44px;
+    left: 377px; 
+    top: 3807px; 
+    position: absolute
+}
+.image42 {
+    width: 45px; 
+    height: 44px; 
+    left: 835px; 
+    top: 3807px; 
+    position: absolute
+}
+.image43 {
+    width: 46px; 
+    height: 44px; 
+    left: 894px; 
+    top: 3807px; 
+    position: absolute
+}
+.image44 {
+    width: 46px; 
+    height: 44px; 
+    left: 952px; 
+    top: 3807px; 
+    position: absolute
+}
+.image45 {
+    width: 46px; 
+    height: 44px; 
+    left: 1011px; 
+    top: 3807px; 
+    position: absolute
+}
+.image46 {
+    width: 45px; 
+    height: 44px; 
+    left: 1069px;
+    top: 3807px; 
+    position: absolute
+}
+.image37 {
+    width: 45px; 
+    height: 44px; 
+    left: 1576px; 
+    top: 3807px; 
+    position: absolute
+}
+.image38 {
+    width: 46px; 
+    height: 44px; 
+    left: 1634px; 
+    top: 3807px; 
+    position: absolute
+}
+.image39 {
+    width: 46px; 
+    height: 44px; 
+    left: 1693px; 
+    top: 3807px; 
+    position: absolute
+}
+.image40 {
+    width: 46px; 
+    height: 44px;
+    left: 1751px;
+    top: 3807px; 
+    position: absolute
+}
+.image41 {
+    width: 45px; 
+    height: 44px; 
+    left: 1810px; 
+    top: 3807px; 
+    position: absolute
+}
+.a2230 {
+    width: 227px; 
+    height: 51px; 
+    left: 142px; 
+    top: 3726px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.a3190 {
+    width: 184px; 
+    height: 43px; 
+    left: 470px; 
+    top: 3731px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 600;
+    word-wrap: break-word
+}
+.Line1 {
+    width: 160px; 
+    height: 0px; 
+    left: 464px; 
+    top: 3752px; 
+    position: absolute; 
+    border: 1px black solid
+}
+.otziv2 {
+    width: 159px; 
+    height: 42px; 
+    left: 441px; 
+    top: 3820px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.ToreadAutomaticSingleAirCushionGreenPrinting {
+    width: 551px; 
+    height: 66px; 
+    left: 142px; 
+    top: 3876px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.a11270 {
+    width: 238px; 
+    height: 51px; 
+    left: 835px; 
+    top: 3731px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.a16100 {
+    width: 203px; 
+    height: 43px; 
+    left: 1157px; 
+    top: 3731px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.Line2 {
+    width: 180px; 
+    height: 0px; 
+    left: 1152px; 
+    top: 3752px; 
+    position: absolute; 
+    border: 1px black solid
+}
+.otziv1 {
+    width: 107px; 
+    height: 35px; 
+    left: 1133px; 
+    top: 3820px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; font-weight: 400; word-wrap: break-word
+}
+.FerrinoLightechSm1100LeftBlue {
+    width: 579px; 
+    height: 66px; 
+    left: 835px; 
+    top: 3876px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.a1740 {
+    width: 215px; 
+    height: 51px; 
+    left: 1576px; 
+    top: 3731px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.a2490 {
+    width: 190px; 
+    height: 43px; 
+    left: 1896px; 
+    top: 3731px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 600; word-wrap: break-word
+}
+.Line3 {
+    width: 160px; 
+    height: 0px; 
+    left: 1889px; 
+    top: 3752px; 
+    position: absolute; 
+    border: 1px black solid
+}
+.otziv0_2 {
+    width: 127px; 
+    height: 35px; 
+    left: 1874px; 
+    top: 3820px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; word-wrap: break-word
+}
+.StcRs {
+    width: 389px; 
+    height: 32px; 
+    left: 1576px; 
+    top: 3876px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.nashi_brendi {
+    width: 1098px; 
+    height: 134px; 
+    left: 142px; 
+    top: 4071px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 128px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.image47 {
+    width: 248px; 
+    height: 238px; 
+    left: 67px; 
+    top: 4270px; 
+    position: absolute
+}
+.image48 {
+    width: 247px; 
+    height: 87px; 
+    left: 437px; 
+    top: 4346px; 
+    position: absolute
+}
+.image49 {
+    width: 247px; 
+    height: 56px; 
+    left: 806px; 
+    top: 4362px; 
+    position: absolute
+}
+.image50 {
+    width: 247px; 
+    height: 238px; 
+    left: 1175px; 
+    top: 4270px; 
+    position: absolute
+}
+.image51 {
+    width: 246px; 
+    height: 135px; 
+    left: 1545px; 
+    top: 4323px; 
+    position: absolute
+}
+.image52 {
+    width: 248px; 
+    height: 49px; 
+    left: 1913px; 
+    top: 4362px; 
+    position: absolute
+}
+.interner-magazine {
+    width: 2011px; 
+    height: 136px; 
+    left: 142px; 
+    top: 4573px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 128px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.biografy {
+    width: 2026px; 
+    left: 135px; 
+    top: 4785px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.Rectangle2 {
+    width: 100%; 
+    height: 401px; 
+    left: 0px; 
+    top: 5250px; 
+    position: absolute; 
+    background: #23292D
+}
+.Image157 {
+    width: 184px; 
+    height: 177px; 
+    left: 67px; 
+    top: 5300px; 
+    position: absolute
+}
+.slogan2 {
+    width: 992px; 
+    height: 57px; 
+    left: 329px; 
+    top: 5361px; 
+    position: absolute; 
+    color: white; 
+    font-size: 64px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.soch_seti {
+    width: 529px; 
+    height: 52px; 
+    left: 1592px; 
+    top: 5300px; 
+    position: absolute; 
+    color: white; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.Image102 {
+    width: 92px; 
+    height: 89px; 
+    left: 1592px; 
+    top: 5362px; 
+    position: absolute
+}
+.Image103 {
+    width: 91px; 
+    height: 89px; 
+    left: 1706px; 
+    top: 5362px; 
+    position: absolute
+}
+.Image104 {
+    width: 91px; 
+    height: 89px; 
+    left: 1819px; 
+    top: 5362px; 
+    position: absolute
+}
+.Image105 {
+    width: 92px; 
+    height: 89px; 
+    left: 1920px; 
+    top: 5362px; 
+    position: absolute
+}
+.Image106 {
+    width: 92px; 
+    height: 89px; 
+    left: 2034px; 
+    top: 5362px; 
+    position: absolute
+}
+.a090207 {
+    width: 1390px; 
+    height: 18px; 
+    left: 67px; 
+    top: 5583px; 
+    position: absolute; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.razrabotchik {
+    width: 1185px; 
+    height: 48px; 
+    left: 67px; 
+    top: 5535px; 
+    position: absolute; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}

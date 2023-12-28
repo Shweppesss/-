@@ -1,0 +1,89 @@
+.profile {
+    width: 202px; 
+    height: 36px; 
+    left: 39px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.adres {
+    width: 180px; 
+    height: 36px; 
+    left: 360px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.zakazi {
+    width: 176px; 
+    height: 36px; 
+    left: 670px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.skidke {
+    width: 254px; 
+    height: 36px; 
+    left: 974px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.kompanii {
+    width: 219px; 
+    height: 36px; 
+    left: 1357px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.vyiti {
+    width: 95px; 
+    height: 36px; 
+    left: 1706px; 
+    top: 20px; 
+    position: absolute; 
+    color: #FF0000; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.nazad {
+    width: 378px; 
+    height: 36px; 
+    left: 1391px; 
+    top: 144px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.adres_dostavki {
+    left: 130px; 
+    top: 330px; 
+    position: absolute
+}

@@ -1,0 +1,1907 @@
+.cataloge { 
+    left:  800px; 
+    top: 550px; 
+    position: absolute;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    width: 2000px;
+}
+.buy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+    width: 630px;
+    height: 1000px;  
+}
+
+.buyStar {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.buyName {
+    width: 630px;
+}
+
+.buySum {
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+}
+.buyReview {
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+}
+.buyName {
+    color: black; font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+}
+
+.image10 {
+    width: 549px; 
+    height: 703px; 
+    left: 835px; 
+    top: 1794px; 
+    position: absolute
+}
+.image16 {
+    width: 549px; 
+    height: 703px; 
+    left: 1576px; 
+    top: 1794px; 
+    position: absolute
+}
+
+.image5 {
+    width: 25px;
+    height: 25px;
+}
+
+.image11 {
+    width: 25px;
+    height: 25px;
+}
+
+
+input[type="checkbox"][id="inventory"]:checked + label {
+    color: rgb(189, 126, 9);
+}
+input[type="checkbox"][id="inventory"]:checked ~ .cataloge >  .clothes, input[type="checkbox"][id="inventory"]:checked ~ .cataloge >   .accessories {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+input[type="checkbox"][id="clothes"]:checked + label {
+    color: rgb(189, 126, 9);
+}
+input[type="checkbox"][id="clothes"]:checked ~ .cataloge >  .inventory, input[type="checkbox"][id="clothes"]:checked ~ .cataloge >   .accessories {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+input[type="checkbox"][id="accessories"]:checked + label {
+    color: rgb(189, 126, 9);
+}
+input[type="checkbox"][id="accessories"]:checked ~ .cataloge >  .inventory, input[type="checkbox"][id="accessories"]:checked ~ .cataloge >  .clothes {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ikonka_korzina {
+    width: 74px; 
+    height: 73px; 
+    left: 1660px; 
+    top: 62px; 
+    position: absolute
+}
+.korzina {
+    width: 148px; 
+    height: 42px; 
+    left: 1637px; 
+    top: 147px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.ikonka_polzovatelya {
+    width: 75px; 
+    height: 73px; 
+    left: 1450px; 
+    top: 62px; 
+    position: absolute
+}
+.vxod {
+    width: 108px; 
+    height: 42px; 
+    left: 1440px; 
+    top: 147px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.slogan {
+    width: 683px; 
+    height: 42px; 
+    left: 546px; 
+    top: 93px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.katalog {
+    width: 404px; 
+    height: 116px; 
+    left: 800px; 
+    top: 435px; 
+    position: absolute; 
+    color: black; 
+    font-size: 96px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.vernutsya_na_glavnuyu {
+    left: 1349px; 
+    top: 400px; 
+    position: absolute; 
+    color: rgb(189, 126, 9); 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.filtr_zagolovok {
+    width: 181px; 
+    height: 58px; 
+    left: 105px; 
+    top: 567px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.proizvodstvo {
+    width: 381px; 
+    height: 43px; 
+    left: 112px; 
+    top: 648px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.naimenovanie {
+    width: 328px; 
+    height: 43px; 
+    left: 112px; 
+    top: 794px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.chena {
+    width: 146px; 
+    height: 44px; 
+    left: 112px; 
+    top: 938px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+label  { 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.strelka {
+    width: 35px; 
+    height: 35px; 
+    left: 375px;
+    top: 680px; 
+    position: absolute; 
+    transform: rotate(-180deg); 
+    transform-origin: 0 0
+}
+.strelka1 {
+    width: 37px;
+    height: 35px; 
+    left: 355px; 
+    top: 827px; 
+    position: absolute; 
+    transform: rotate(-180deg); 
+    transform-origin: 0 0
+}
+.strelka2 {
+    width: 36px; 
+    height: 35px; 
+    left: 245px; 
+    top: 971px; 
+    position: absolute; 
+    transform: rotate(-180deg);
+    transform-origin: 0 0
+}
+.ot {
+    width: 26px; 
+    height: 29px; 
+    left: 120px; 
+    top: 997px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.do {
+    width: 31px; 
+    height: 29px; 
+    left: 269px; 
+    top: 998px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.ot_A_do_YA {
+    width: 96px; 
+    height: 26px; 
+    left: 152px;
+    top: 855px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.ot_YA_do_A {
+    width: 96px; 
+    height: 25px; 
+    left: 152px; 
+    top: 896px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.po_yubivaniyu {
+    width: 137px; 
+    height: 25px; 
+    left: 152px; 
+    top: 710px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.po_vozrostaniyu {
+    width: 167px; 
+    height: 24px; 
+    left: 152px; 
+    top: 752px; 
+    position: absolute; 
+    color: black; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.rectalage {
+    width: 100%; 
+    height: 336px; 
+    left: 0px; 
+    top: 10450px; 
+    position: absolute; 
+    background: #000000
+}
+.slogan1 {
+    width: 731px; 
+    height: 47px; 
+    left: 372px;
+    top: 10550px;
+    position: absolute;
+    color: white; 
+    font-size: 48px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.soch_seti {
+    width: 435px;
+    height: 42px; 
+    left: 1314px; 
+    top: 10490px; 
+    position: absolute; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.spechialnosty {
+    width: 1146px; 
+    height: 18px; 
+    left: 56px; 
+    top: 10670px;
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.razrabotchik {
+    width: 977px; 
+    height: 38px; 
+    left: 56px; 
+    top: 10710px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.image1 {
+    width: 452px; 
+    height: 591px; 
+    left: 658px; 
+    top: 10500px; 
+    position: absolute
+}
+.a45_990 {
+    width: 259px; 
+    height: 42px; 
+    left: 658px; 
+    top: 1163px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda1 {
+    width: 38px; 
+    height: 36px;
+    left: 658px; 
+    top: 1225px; 
+    position: absolute
+}
+.zvezda2 {
+    width: 38px; 
+    height: 36px; 
+    left: 706px; 
+    top: 1225px; 
+    position: absolute
+}
+.zvezda3 {
+    width: 38px; 
+    height: 36px; 
+    left: 754px; 
+    top: 1225px; 
+    position: absolute
+}
+.zvezda4 {
+    width: 38px; 
+    height: 36px; 
+    left: 802px;
+    top: 1225px; 
+    position: absolute
+}
+.zvezda5 {
+    width: 38px; 
+    height: 36px; 
+    left: 850px; 
+    top: 1225px; 
+    position: absolute
+}
+.otziv9 {
+    width: 131px; 
+    height: 27px; 
+    left: 903px; 
+    top: 1231px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Salewa_Sierra_Leone_2 {
+    width: 566px; 
+    height: 56px; 
+    left: 658px; 
+    top: 1283px; 
+    position: absolute; 
+    color: black;
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image2 {
+    width: 443px; 
+    height: 590px; 
+    left: 1282px; 
+    top: 531px; 
+    position: absolute
+}
+.a13_990 {
+    width: 247px; 
+    height: 42px; 
+    left: 1309px; 
+    top: 1163px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.otziv_0 {
+    width: 129px; 
+    height: 27px; 
+    left: 1556px; 
+    top: 1230px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Deuter_Orbit_L_левый_Mandarine_Ink {
+    width: 474px; 
+    height: 56px; 
+    left: 1309px; 
+    top: 1283px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.zvezda6 {
+    width: 38px; 
+    height: 36px; 
+    left: 1309px; 
+    top: 1225px; 
+    position: absolute
+}
+.zvezda7 {
+    width: 38px; 
+    height: 36px; 
+    left: 1357px; 
+    top: 1225px; 
+    position: absolute
+}
+.zvezda8 {
+    width: 38px; 
+    height: 36px; 
+    left: 1449px; 
+    top: 1225px;
+    position: absolute
+}
+.zvezda9 {
+    width: 38px; 
+    height: 36px; 
+    left: 1497px; 
+    top: 1225px; 
+    position: absolute
+}
+.zvezda10 {
+    width: 38px; 
+    height: 36px; 
+    left: 1401px; 
+    top: 1225px; 
+    position: absolute
+}
+.zvezda11 {
+    width: 38px; 
+    height: 37px; 
+    left: 658px; 
+    top: 2095px; 
+    position: absolute
+}
+.zvezda12 {
+    width: 37px; 
+    height: 37px; 
+    left: 788px; 
+    top: 2095px; 
+    position: absolute
+}
+.zvezda13 {
+    width: 38px;
+    height: 37px; 
+    left: 836px; 
+    top: 2095px; 
+    position: absolute 
+}
+.zvezda14 {
+    width: 38px;
+    height: 37px; 
+    left: 739px; 
+    top: 2095px; 
+    position: absolute
+}
+.zvezda15 {
+    width: 37px; 
+    height: 37px; 
+    left: 696px; 
+    top: 2095px; 
+    position: absolute
+}
+.image3 {
+    width: 416px; 
+    height: 591px; 
+    left: 658px; 
+    top: 1415px; 
+    position: absolute
+}
+.a19_680 {
+    width: 245px; 
+    height: 42px; 
+    left: 658px; 
+    top: 2031px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.otziv_0_1 {
+    width: 141px; 
+    height: 28px; 
+    left: 903px; 
+    top: 2103px;
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; word-wrap: break-word
+}
+.KLYMIT_Insulated_V_Ultralite_SL {
+    width: 440px;
+    height: 56px; 
+    left: 658px;
+    top: 2152px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image4 {
+    width: 421px; 
+    height: 591px; 
+    left: 1309px; 
+    top: 1440px; 
+    position: absolute
+}
+.a2_230 {
+    width: 231px; 
+    height: 42px; 
+    left: 1309px; 
+    top: 2031px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda16 {
+    width: 38px; 
+    height: 37px; 
+    left: 1309px; 
+    top: 2095px; 
+    position: absolute
+}
+.zvezda17 {
+    width: 38px; 
+    height: 37px; 
+    left: 1357px; 
+    top: 2095px; 
+    position: absolute
+}
+.zvezda18 {
+    width: 38px; 
+    height: 37px; 
+    left: 1405px; 
+    top: 2095px; 
+    position: absolute
+}
+.zvezda19 {
+    width: 38px; 
+    height: 37px; 
+    left: 1454px; 
+    top: 2095px; 
+    position: absolute
+}
+.zvezda20 {
+    width: 37px; 
+    height: 37px; 
+    left: 1503px; 
+    top: 2095px; 
+    position: absolute
+}
+.otziv_2 {
+    width: 123px; 
+    height: 28px; 
+    left: 1556px; 
+    top: 2103px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48);
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Toread_Automatic_Single_Air_Cushion_Green_Printing {
+    width: 474px; 
+    height: 56px; 
+    left: 1309px; 
+    top: 2152px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400;
+    word-wrap: break-word
+}
+.image5 {
+    width: 416px;
+    height: 589px; 
+    left: 658px; 
+    top: 2280px; 
+    position: absolute
+}
+.a11_270 {
+    width: 245px; 
+    height: 42px; 
+    left: 658px; 
+    top: 2901px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda21 {
+    width: 38px; 
+    height: 39px; 
+    left: 658px; 
+    top: 2963px; 
+    position: absolute
+}
+.zvezda22 {
+    width: 38px; 
+    height: 39px; 
+    left: 706px; 
+    top: 2963px; 
+    position: absolute
+}
+.zvezda23 {
+    width: 38px; 
+    height: 39px; 
+    left: 754px; 
+    top: 2963px; 
+    position: absolute
+}
+.zvezda24 {
+    width: 38px; 
+    height: 39px; 
+    left: 802px; 
+    top: 2963px; 
+    position: absolute
+}
+.zvezda25 {
+    width: 38px; 
+    height: 39px; 
+    left: 850px; 
+    top: 2963px; 
+    position: absolute
+}
+.otziv_1 {
+    width: 102px; 
+    height: 28px; 
+    left: 903px; 
+    top: 2972px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Ferrino_Lightech_Sm_1100_Left_Blue {
+    width: 416px; 
+    height: 55px; 
+    left: 658px; 
+    top: 3022px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image6 {
+    width: 415px; 
+    height: 590px; 
+    left: 1309px; 
+    top: 2291px; 
+    position: absolute
+}
+.zvezda26 {
+    width: 38px; 
+    height: 39px; 
+    left: 1309px; 
+    top: 2963px; 
+    position: absolute
+}
+.zvezda27 {
+    width: 38px; 
+    height: 39px; 
+    left: 1449px; 
+    top: 2963px; 
+    position: absolute
+}
+.zvezda28 {
+    width: 38px; 
+    height: 39px; 
+    left: 1497px; 
+    top: 2963px;
+    position: absolute
+}
+.zvezda29 {
+    width: 38px; 
+    height: 39px; 
+    left: 1401px; 
+    top: 2963px; 
+    position: absolute
+}
+.zvezda30 {
+    width: 38px; 
+    height: 39px; 
+    left: 1357px; 
+    top: 2963px; 
+    position: absolute
+}
+.a1_740 {
+    width: 226px; 
+    height: 42px; 
+    left: 1309px; 
+    top: 2901px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.otziv_0_2 {
+    width: 135px; 
+    height: 28px; 
+    left: 1556px; 
+    top: 2973px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.STC_RS {
+    width: 382px; 
+    height: 28px; 
+    left: 1309px; 
+    top: 3022px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image7 {
+    width: 453px;
+    height: 591px; 
+    left: 621px; 
+    top: 3156px; 
+    position: absolute
+}
+.a43_090 {
+    width: 264px; 
+    height: 43px; 
+    left: 621px; 
+    top: 3771px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda31 {
+    width: 38px;
+    height: 36px;
+     left: 621px;
+      top: 3835px;
+       position: absolute
+}
+.zvezda32 {
+    width: 38px;
+     height: 36px;
+      left: 669px;
+       top: 3835px;
+        position: absolute
+}
+.zvezda33 {
+    width: 38px;
+    height: 36px;
+     left: 718px;
+    top: 3835px;
+    position: absolute 
+}
+.zvezda34 {
+    width: 37px;
+    height: 36px; 
+    left: 767px; 
+    top: 3835px; 
+    position: absolute
+}
+.zvezda35 {
+    width: 37px; 
+    height: 36px; 
+    left: 815px; 
+    top: 3835px; 
+    position: absolute
+}
+.otziv_5 {
+    width: 132px; 
+    height: 29px; 
+    left: 868px; 
+    top: 3842px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Salewa_Litetrek_3_Tent_Lightgrey_Cactus {
+    width: 453px; 
+    height: 84px; 
+    left: 621px; 
+    top: 3892px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image8 {
+    width: 451px; 
+    height: 591px; 
+    left: 1230px; 
+    top: 3156px; 
+    position: absolute
+}
+.a40_190 {
+    width: 254px; 
+    height: 43px; 
+    left: 1274px; 
+    top: 3771px;
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda36 {
+    width: 36px; 
+    height: 36px; 
+    left: 1274px; 
+    top: 3835px; 
+    position: absolute
+} 
+.zvezda37 {
+    width: 37px; 
+    height: 36px; 
+    left: 1322px; 
+    top: 3835px; 
+    position: absolute
+}
+.zvezda38 {
+    width: 37px; 
+    height: 36px; 
+    left: 1370px; 
+    top: 3835px; 
+    position: absolute
+}
+.zvezda39 {
+    width: 37px; 
+    height: 36px; 
+    left: 1418px; 
+    top: 3835px; 
+    position: absolute
+}
+.zvezda40 {
+    width: 38px; 
+    height: 36px; 
+    left: 1466px; 
+    top: 3835px; 
+    position: absolute
+}
+.otziv_1_1 {
+    width: 99px; 
+    height: 29px; 
+    left: 1519px; 
+    top: 3842px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Salewa_Denali_lv_Tent_Cactus_Gray {
+    width: 416px; 
+    height: 57px; 
+    left: 1274px;
+    top: 3892px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image9 {
+    width: 453px; 
+    height: 589px; 
+    left: 621px; 
+    top: 4027px; 
+    position: absolute
+}
+.a28_690 {
+    width: 262px; 
+    height: 42px; 
+    left: 621px; 
+    top: 4642px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda41 {
+    width: 38px; 
+    height: 38px; 
+    left: 621px; 
+    top: 4704px; 
+    position: absolute 
+}
+.zvezda42 {
+    width: 38px;
+    height: 38px; 
+    left: 669px; 
+    top: 4704px; 
+    position: absolute
+}
+.zvezda43 {
+    width: 38px; 
+    height: 38px; 
+    left: 718px; 
+    top: 4704px; 
+    position: absolute
+}
+.zvezda44 {
+    width: 37px; 
+    height: 38px; 
+    left: 767px;
+    top: 4704px; 
+    position: absolute
+}
+.zvezda45 {
+    width: 37px;
+    height: 38px; 
+    left: 815px; 
+    top: 4704px; 
+    position: absolute
+}
+.otziv_9 {
+    width: 137px; 
+    height: 29px; 
+    left: 868px; 
+    top: 4713px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Salewa_Micra_2_Tent_Cactus_Grey {
+    width: 485px; 
+    height: 27px; 
+    left: 621px; 
+    top: 4763px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image10 {
+    width: 416px; 
+    height: 589px; 
+    left: 1274px; 
+    top: 4027px; 
+    position: absolute
+}
+.a6_990 {
+    width: 230px; 
+    height: 42px; 
+    left: 1274px; 
+    top: 4642px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda46 {
+    width: 36px; 
+    height: 38px; 
+    left: 1274px;
+    top: 4704px; 
+    position: absolute
+}
+.zvezda47 {
+    width: 37px;
+    height: 38px; 
+    left: 1322px; 
+    top: 4704px; 
+    position: absolute
+}
+.zvezda48 {
+    width: 37px; 
+    height: 38px; 
+    left: 1370px;
+    top: 4704px; 
+    position: absolute
+}
+.zvezda49 {
+    width: 37px; 
+    height: 38px; 
+    left: 1418px; 
+    top: 4704px; 
+    position: absolute
+}
+.zvezda50 {
+    width: 38px; 
+    height: 38px; 
+    left: 1466px; 
+    top: 4704px; 
+    position: absolute
+}
+.otziv_1_2 {
+    width: 103px; 
+    height: 29px; 
+    left: 1519px; 
+    top: 4713px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.ALPINA_Pala_Black_White_Matt {
+    width: 420px; 
+    height: 27px; 
+    left: 1274px; 
+    top: 4763px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.logotip {
+    width: 413.25px; 
+    height: 365px; 
+    left: 33px; 
+    top: 5px; 
+    position: absolute
+}
+.turistiko {
+    width: 373.87px; 
+    height: 56.25px; 
+    left: 54.02px; 
+    top: 358px; 
+    position: absolute; 
+    color: black;
+    font-size: 64px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.a46_990 {
+    width: 247px; 
+    height: 42px; 
+    left: 621px; 
+    top: 5510px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.NIDECKER_Venus {
+    width: 321px; 
+    height: 55px; 
+    left: 621px; 
+    top: 5632px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image11 {
+    width: 416px; 
+    height: 590px; 
+    left: 621px; 
+    top: 4897px; 
+    position: absolute
+}
+.zvezda51 {
+    width: 38px; 
+    height: 36px; 
+    left: 621px; 
+    top: 5579px; 
+    position: absolute
+}
+.zvezda52 {
+    width: 38px; 
+    height: 36px; 
+    left: 761px; 
+    top: 5579px; 
+    position: absolute
+}
+.zvezda53 {
+    width: 38px; 
+    height: 36px; 
+    left: 810px; 
+    top: 5579px; 
+    position: absolute
+}
+.zvezda54 {
+    width: 38px; 
+    height: 36px; 
+    left: 713px; 
+    top: 5579px; 
+    position: absolute
+}
+.zvezda55 {
+    width: 38px; 
+    height: 36px; 
+    left: 669px; 
+    top: 5579px; 
+    position: absolute
+}
+.otziv_0_3 {
+    width: 144px; 
+    height: 28px; 
+    left: 868px; 
+    top: 5588px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image12 {
+    width: 451px; 
+    height: 590px; 
+    left: 1274px; 
+    top: 4897px; 
+    position: absolute
+}
+.a11_500 {
+    width: 256px; 
+    height: 42px; 
+    left: 1274px; 
+    top: 5510px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.KV_Tempesta {
+    width: 350px; 
+    height: 28px; 
+    left: 1274px; 
+    top: 5632px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400;
+    word-wrap: break-word
+}
+.zvezda56 {
+    width: 36px; 
+    height: 36px; 
+    left: 1274px; 
+    top: 5579px; 
+    position: absolute
+}
+.zvezda57 {
+    width: 37px; 
+    height: 36px; 
+    left: 1414px; 
+    top: 5579px; 
+    position: absolute
+}
+.zvezda58 {
+    width: 37px; 
+    height: 36px; 
+    left: 1462px; 
+    top: 5579px; 
+    position: absolute
+}
+.zvezda59 {
+    width: 36px; 
+    height: 36px; 
+    left: 1366px; 
+    top: 5579px; 
+    position: absolute
+}
+.zvezda60 {
+    width: 37px; 
+    height: 36px; 
+    left: 1322px; 
+    top: 5579px; 
+    position: absolute
+}
+.otziv_0_4 {
+    width: 130px; 
+    height: 28px; 
+    left: 1530px; 
+    top: 5588px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image13 {
+    width: 453px; 
+    height: 589px; 
+    left: 627px; 
+    top: 5767px; 
+    position: absolute
+}
+.a3_350 {
+    width: 247px; 
+    height: 44px; 
+    left: 627px; 
+    top: 6380px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda61 {
+    width: 38px; 
+    height: 35px; 
+    left: 627px; 
+    top: 6445px; 
+    position: absolute
+}
+.zvezda62 {
+    width: 37px; 
+    height: 35px; 
+    left: 676px; 
+    top: 6445px; 
+    position: absolute
+}
+.zvezda63 {
+    width: 36px; 
+    height: 35px; 
+    left: 725px; 
+    top: 6445px; 
+    position: absolute
+}
+.zvezda64 {
+    width: 37px; 
+    height: 35px; 
+    left: 773px; 
+    top: 6445px; 
+    position: absolute
+}
+.zvezda65 {
+    width: 38px; 
+    height: 35px; 
+    left: 821px; 
+    top: 6445px; 
+    position: absolute
+}
+.otziv_2_1 {
+    width: 112px; 
+    height: 30px; 
+    left: 874px; 
+    top: 6453px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Ultralight_Silk_Traveller {
+    width: 459px; 
+    height: 57px; 
+    left: 627px; 
+    top: 6501px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image14 {
+    width: 451px; 
+    height: 589px; 
+    left: 1280px; 
+    top: 5767px; 
+    position: absolute
+}
+.a1_810 {
+    width: 226px; 
+    height: 44px; 
+    left: 1280px; 
+    top: 6380px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda66 {
+    width: 36px; 
+    height: 35px; 
+    left: 1280px; 
+    top: 6445px; 
+    position: absolute
+}
+.zvezda67 {
+    width: 38px; 
+    height: 35px; 
+    left: 1420px; 
+    top: 6445px; 
+    position: absolute
+}
+.zvezda68 {
+    width: 38px; 
+    height: 35px; 
+    left: 1468px; 
+    top: 6445px; 
+    position: absolute
+}
+.zvezda69 {
+    width: 36px; 
+    height: 35px; 
+    left: 1372px; 
+    top: 6445px; 
+    position: absolute
+}
+.zvezda70 {
+    width: 38px; 
+    height: 35px; 
+    left: 1328px; 
+    top: 6445px; 
+    position: absolute
+}
+.otziv_0_5 {
+    width: 137px; 
+    height: 30px; 
+    left: 1525px; 
+    top: 6453px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400;
+    word-wrap: break-word
+}
+.Toread_ultralight_hammock {
+    width: 388px; 
+    height: 57px; 
+    left: 1280px; 
+    top: 6501px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: 
+    Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image15 {
+    width: 453px; 
+    height: 589px; 
+    left: 627px; 
+    top: 6638px; 
+    position: absolute
+}
+.a33_490 {
+    width: 247px; 
+    height: 44px; 
+    left: 627px; 
+    top: 7251px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.zvezda71 {
+    width: 38px; 
+    height: 35px; 
+    left: 627px; 
+    top: 7316px; 
+    position: absolute
+}
+.zvezda72 {
+    width: 37px; 
+    height: 35px; 
+    left: 676px; 
+    top: 7316px; 
+    position: absolute
+}
+.zvezda73 {
+    width: 36px; 
+    height: 35px; 
+    left: 725px; 
+    top: 7316px; 
+    position: absolute
+}
+.zvezda74 {
+    width: 37px; 
+    height: 35px; 
+    left: 773px; 
+    top: 7316px; 
+    position: absolute
+}
+.zvezda75 {
+    width: 38px; 
+    height: 35px; 
+    left: 821px; 
+    top: 7316px; 
+    position: absolute
+}
+.otziv_2_2 {
+    width: 112px; 
+    height: 30px; 
+    left: 874px; 
+    top: 7324px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400;
+    word-wrap: break-word
+}
+.Asolo_520_Winter_GV_MM_Black {
+    width: 459px; 
+    height: 57px; 
+    left: 627px; 
+    top: 7372px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.zvezda76 {
+    width: 37px; 
+    height: 35px; 
+    left: 1280px; 
+    top: 7316px; 
+    position: absolute
+}
+.zvezda77 {
+    width: 38px; 
+    height: 35px; 
+    left: 1328px; 
+    top: 7316px; 
+    position: absolute
+}
+.zvezda78 {
+    width: 37px; 
+    height: 35px; 
+    left: 1377px; 
+    top: 7316px; 
+    position: absolute
+}
+.zvezda79 {
+    width: 38px; 
+    height: 35px; 
+    left: 1425px; 
+    top: 7316px; 
+    position: absolute
+}
+.zvezda80 {
+    width: 38px; 
+    height: 35px; 
+    left: 1473px; 
+    top: 7316px; 
+    position: absolute 
+}
+.image16 {
+    width: 451px; 
+    height: 589px; 
+    left: 1280px; 
+    top: 6638px; 
+    position: absolute
+}
+.a15_890 {
+    width: 269px; 
+    height: 44px; 
+    left: 1280px; 
+    top: 7251px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.otziv_3_1 {
+    width: 137px; 
+    height: 30px; 
+    left: 1525px; 
+    top: 7324px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Accapi_Ergowool_Long_Sleeve_Shirt_Blue_Black {
+    width: 451px; 
+    height: 57px; 
+    left: 1280px; 
+    top: 7372px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image17 {
+    width: 453px; 
+    height: 589px; 
+    left: 627px; 
+    top: 7509px; 
+    position: absolute
+}
+.a42_490 {
+    width: 247px; 
+    height: 44px; 
+    left: 627px; 
+    top: 8122px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px;
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.Salewa_Ortles_Rds_Down_Hybrid_Electric {
+    width: 453px; 
+    height: 57px; 
+    left: 627px; 
+    top: 8243px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.zvezda81 {
+    width: 37px; 
+    height: 35px; 
+    left: 627px; 
+    top: 8190px; 
+    position: absolute
+}
+.zvezda82 {
+    width: 37px; 
+    height: 35px; 
+    left: 768px; 
+    top: 8190px; 
+    position: absolute
+}
+.zvezda83 {
+    width: 37px; 
+    height: 35px; 
+    left: 816px; 
+    top: 8190px; 
+    position: absolute
+}
+.zvezda84 {
+    width: 37px; 
+    height: 35px; 
+    left: 719px; 
+    top: 8190px; 
+    position: absolute
+}
+.zvezda85 {
+    width: 37px; 
+    height: 35px; 
+    left: 676px; 
+    top: 8190px; 
+    position: absolute
+}
+.otziv_0_6 {
+    width: 137px; 
+    height: 30px; 
+    left: 873px; 
+    top: 8197px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.zvezda86 {
+    width: 37px; 
+    height: 35px; 
+    left: 1280px; 
+    top: 8190px; 
+    position: absolute
+}
+.zvezda87 {
+    width: 38px; 
+    height: 35px; 
+    left: 1328px; 
+    top: 8190px; 
+    position: absolute
+}
+.zvezda88 {
+    width: 37px; 
+    height: 35px; 
+    left: 1377px; 
+    top: 8190px; 
+    position: absolute
+}
+.zvezda89 {
+    width: 38px; 
+    height: 35px; 
+    left: 1425px; 
+    top: 8190px; 
+    position: absolute
+}
+.zvezda90 {
+    width: 38px; 
+    height: 35px; 
+    left: 1473px; 
+    top: 8190px; 
+    position: absolute
+}
+.otziv_9_1 {
+    width: 137px; 
+    height: 30px; 
+    left: 1525px; 
+    top: 8198px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image18 {
+    width: 451px; 
+    height: 589px; 
+    left: 1280px; 
+    top: 7509px; 
+    position: absolute
+}
+.a5_590 {
+    width: 226px; 
+    height: 44px; 
+    left: 1280px; 
+    top: 8122px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.Maier_Sports_Raindrop_L_W_Black {
+    width: 451px; 
+    height: 57px; 
+    left: 1280px; 
+    top: 8243px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image_banner {
+    width: 495px; 
+    height: 1237px; 
+    left: 51px; 
+    top: 1460px; 
+    position: absolute
+}
+.object {
+    width: 321px; 
+    height: 111px; 
+    left: 225px; 
+    top: 1892px; 
+    position: absolute; 
+    background: #FE7211; 
+    border-top-left-radius: 100px
+}
+.priroda {
+    width: 166px; 
+    height: 103px; 
+    left: 342px; 
+    top: 1903px; 
+    position: absolute; 
+    color: white; 
+    font-size: 36px; 
+    font-family: Jost; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.otdix {
+    width: 229px; 
+    height: 73px; 
+    left: 302px;
+    top: 2021px; 
+    position: absolute; 
+    text-align: right; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inder; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.turistiko_1 {
+    width: 311px; 
+    height: 54px; 
+    left: 220px; 
+    top: 2620px; 
+    position: absolute; 
+    text-align: right; 
+    color: white; 
+    font-size: 48px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.seti1 {
+    width: 75px; 
+    height: 74px; 
+    left: 1314px; 
+    top: 10540px; 
+    position: absolute
+}
+.seti2 {
+    width: 74px; 
+    height: 74px; 
+    left: 1408px;
+    top: 10540px; 
+    position: 
+    absolute
+}
+.seti3 {
+    width: 75px; 
+    height: 74px; 
+    left: 1501px; 
+    top: 10540px; 
+    position: absolute
+}
+.seti4 {
+    width: 75px; 
+    height: 74px; 
+    left: 1585px; 
+    top: 10540px; 
+    position: absolute
+}
+.seti5 {
+    width: 76px; 
+    height: 74px; 
+    left: 1678px; 
+    top: 10540px; 
+    position: absolute
+}

@@ -1,0 +1,358 @@
+.dannie_text {
+    width: 383px; 
+    height: 58px; 
+    left: 38px;
+    top: 120px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.imya {
+    width: 808px; 
+    height: 73px; 
+    left: 38px; 
+    top: 250px; 
+    position: absolute; 
+    background: #d4d3d3; 
+    font-size: 28px;
+}
+.telefon {
+    width: 808px; 
+    height: 86px; 
+    left: 38px; 
+    top: 615px; 
+    position: absolute; 
+    background: #F7F7F7; 
+    border: 2px black solid; 
+    font-size: 28px;
+}
+.familia {
+    width: 808px; 
+    height: 74px; 
+    left: 38px; 
+    top: 375px; 
+    position: absolute; 
+    background: #E0E0E0; 
+    font-size: 28px;
+}
+.otchestvo {
+    width: 808px; 
+    height: 74px; 
+    left: 38px; 
+    top: 500px; 
+    position: absolute; 
+    background: #E0E0E0; 
+    font-size: 28px;
+}
+.knopka1 {
+    width: 225px; 
+    height: 75px; 
+    left: 621px; 
+    top: 1000px; 
+    position: absolute; 
+    background: #E0E0E0; 
+    font-size: 28px; 
+    border-color: #E0E0E0;
+}
+.knopka2 {
+    width: 225px; 
+    height: 75px; 
+    left: 348px; 
+    top: 1000px; 
+    position: absolute; 
+    background: #FE7211; 
+    font-size: 28px; 
+    color: white; 
+    border-color: #FE7211;
+}
+.knopka3 {
+    width: 482px; 
+    height: 74px; 
+    left: 38px; 
+    top: 1115px; 
+    position: absolute; 
+    background: #FE7211; 
+    border-color: #FE7211; 
+    font-size: 28px; 
+    color: white;
+}
+.e_mail {
+    width: 808px; 
+    height: 73px; 
+    left: 38px; 
+    top: 750px; 
+    position: absolute; 
+    background: #E0E0E0; 
+    font-size: 29px;
+}
+.data {
+    width: 808px; 
+    height: 73px; 
+    left: 38px; 
+    top: 875px; 
+    position: absolute; 
+    background: #E0E0E0; 
+    font-size: 28px;
+}
+.pol {
+    width: 59px; 
+    height: 35px; 
+    left: 62px; 
+    top: 1020px; 
+    position: absolute; 
+    color: black; 
+    font-size: 28px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.ractalage {
+    width: 641px; 
+    height: 101px; 
+    left: 1096px; 
+    top: 150px; 
+    position: absolute; 
+    background: #E0E0E0
+}
+.knopka4 {
+    width: 641px; 
+    height: 102px; 
+    left: 1096px; 
+    top: 251px; 
+    position: absolute; 
+    background: #FE7211; 
+    font-size: 28px; 
+    color: white; 
+    border-color: orange;
+}
+.karta_ne_naydena {
+    width: 534px; 
+    height: 44px; 
+    left: 1200px; 
+    top: 180px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.zagolovok_text {
+    width: 422px; 
+    height: 57px; 
+    left: 38px; 
+    top: 1275px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.knopka5 {
+    width: 482px; 
+    height: 73px; 
+    left: 38px; 
+    top: 1880px; 
+    position: absolute; 
+    background: #FE7211; 
+    font-size: 28px; 
+    color: white; 
+    border-color: #FE7211;
+}
+.object {
+    width: 808px; 
+    height: 525px; 
+    left: 38px;
+    top: 1330px; 
+    position: absolute; 
+    background: white; 
+    border: 1px rgba(0, 0, 0, 0.48) solid
+}
+.parol_stariy {
+    width: 730px; 
+    height: 73px; 
+    left: 77px; 
+    top: 1375px; 
+    position: absolute; 
+    background: #E0E0E0; 
+    font-size: 28px;
+}
+.parol_noviy {
+    width: 730px; 
+    height: 74px; 
+    left: 77px; 
+    top: 1500px; 
+    position: absolute; 
+    background: #E0E0E0; 
+    font-size: 28px;
+}
+.parol_podtverdit {
+    width: 730px; 
+    height: 74px; 
+    left: 77px; 
+    top: 1615px; 
+    position: absolute; 
+    background: #E0E0E0; 
+    font-size: 28px;
+}
+.knopka6 {
+    width: 347px; 
+    height: 73px; 
+    left: 460px; 
+    top: 1730px; 
+    position: absolute; 
+    background: #E0E0E0; 
+    font-size: 24px; 
+    border-color: #E0E0E0;
+}
+.knopka7 {
+    width: 375px; 
+    height: 73px; 
+    left: 77px; 
+    top: 1730px; 
+    position: absolute; 
+    background: #FE7211; 
+    font-size: 24px; 
+    border-color: #FE7211; color: white;
+}
+.profil {
+    width: 488px; 
+    height: 84px; 
+    left: 38px; 
+    top: 50px; 
+    position: absolute; 
+    color: black; 
+    font-size: 48px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.nazad {
+    width: 378px; 
+    height: 36px; 
+    left: 1391px; 
+    top: 50px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.image {
+    width: 629px; 
+    height: 1374px; 
+    left: 1093px; 
+    top: 613px; 
+    position: absolute
+}
+.object {
+    width: 321px; 
+    height: 111px; 
+    left: 1401px; 
+    top: 766px; 
+    position: absolute; 
+    background: #FE7211; 
+    border-top-left-radius: 100px
+}
+.pririda {
+    width: 166px; 
+    height: 103px; 
+    left: 1519px; 
+    top: 780px; 
+    position: absolute; 
+    color: white; 
+    font-size: 36px; 
+    font-family: Jost; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.turistiko {
+    width: 310px; 
+    height: 53px; 
+    left: 1385px; 
+    top: 1898px; 
+    position: absolute; 
+    text-align: right; 
+    color: white; 
+    font-size: 48px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.profile {
+    width: 202px; 
+    height: 36px; 
+    left: 39px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.adres {
+    width: 180px; 
+    height: 36px; 
+    left: 360px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.zakaz {
+    width: 176px; 
+    height: 36px; 
+    left: 670px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.bonusi_i_skidki {
+    width: 254px; 
+    height: 36px; 
+    left: 974px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.kompanii {
+    width: 219px; 
+    height: 36px; 
+    left: 1357px; 
+    top: 20px; 
+    position: absolute; 
+    color: black; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.vixod {
+    width: 95px; 
+    height: 36px; 
+    left: 1706px; 
+    top: 20px; 
+    position: absolute; 
+    color: #FF0000; 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}

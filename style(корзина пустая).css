@@ -1,0 +1,256 @@
+.korzina {
+    width: 306px; 
+    height: 83px; 
+    left: 181px; 
+    top: 121px; 
+    position: absolute; 
+    color: black; 
+    font-size: 48px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.korzina_pusto {
+    width: 484px; 
+    height: 56px; 
+    left: 688px; 
+    top: 368px; 
+    position: absolute; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.rekomendachii_zagolovok {
+    width: 333px; 
+    height: 55px; 
+    left: 753px; 
+    top: 855px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.text {
+    width: 730px; 
+    height: 68px; 
+    left: 520px; 
+    top: 458px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.knopka1 {
+    width: 624px;
+    height: 110px; 
+    left: 560px; 
+    top: 585px;
+    position: absolute; 
+    background: white; 
+    border: 1px rgba(0, 0, 0, 0.48) solid;
+    border-color: rgba(0, 0, 0, 0.48);
+    font-size: 32px;
+}
+.image1 {
+    width: 453px; 
+    height: 570px; 
+    left: 107px; 
+    top: 944px; 
+    position: absolute 
+}
+.Salewa_itetrek_3_Tent {
+    width: 359px; 
+    height: 53px; 
+    left: 107px; 
+    top: 1590px; 
+    position: absolute; 
+    color: black;
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image2 {
+    width: 452px; 
+    height: 570px;
+    left: 679px; 
+    top: 944px; 
+    position: absolute
+}
+.a40_190 {
+    width: 206px; 
+    height: 41px; 
+    left: 679px; 
+    top: 1537px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.a43_090 {
+    width: 213px;
+    height: 42px; 
+    left: 107px; 
+    top: 1532px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.Salewa_Denali_lv_Tent {
+    width: 354px; 
+    height: 53px; 
+    left: 679px; 
+    top: 1590px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.a28_690 {
+    width: 211px; 
+    height: 41px; 
+    left: 1290px; 
+    top: 1537px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.Salewa_Micra_2_Tent_Cactus_Grey {
+    width: 484px; 
+    height: 26px; 
+    left: 1290px; 
+    top: 1590px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.nazad {
+    width: 650px; 
+    height: 69px; 
+    left: 1319px; 
+    top: 132px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.rectalage {
+    width: 1840px; 
+    height: 325px; 
+    left: 0px; 
+    top: 1739px; 
+    position: absolute; 
+    background: #23292D
+}
+.image_1 {
+    width: 151px; 
+    height: 143px; 
+    left: 56px; 
+    top: 1780px; 
+    position: absolute
+}
+.slogan {
+    width: 732px; 
+    height: 45px; 
+    left: 271px; 
+    top: 1829px; 
+    position: absolute; 
+    color: white; 
+    font-size: 40px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.ceti1 {
+    width: 75px; 
+    height: 71px; 
+    left: 1314px; 
+    top: 1830px; 
+    position: absolute
+}
+.ceti2 {
+    width: 76px; 
+    height: 71px; 
+    left: 1407px; 
+    top: 1830px; 
+    position: absolute
+}
+.ceti3 {
+    width: 75px; 
+    height: 71px; 
+    left: 1501px; 
+    top: 1830px; 
+    position: absolute
+}
+.ceti4 {
+    width: 76px; 
+    height: 71px; 
+    left: 1585px; 
+    top: 1830px; 
+    position: absolute
+}
+.ceti5 {
+    width: 75px; 
+    height: 71px; 
+    left: 1679px; 
+    top: 1830px; 
+    position: absolute
+}
+.soch_seti {
+    width: 436px; 
+    height: 42px; 
+    left: 1314px; 
+    top: 1780px; 
+    position: absolute; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.spechialnost {
+    width: 1146px; 
+    height: 16px; 
+    left: 56px; 
+    top: 2014px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 700;
+    word-wrap: break-word
+}
+.razrabotchik {
+    width: 977px; 
+    height: 39px; 
+    left: 56px; 
+    top: 1970px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}

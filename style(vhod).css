@@ -1,0 +1,187 @@
+.strelka_left {
+    width: 91.39px; 
+    height: 93.87px; 
+    left: 425px; 
+    top: 220px; 
+    position: absolute;
+}
+.vhod_v_lichniy_kabinet {
+    width: 1362px; 
+    height: 145px; 
+    left: 548px; 
+    top: 199px; 
+    position: absolute; 
+    color: black; 
+    font-size: 96px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.oboi {
+    width: 1698px; 
+    height: 1502px; 
+    left: 276px; 
+    top: 404px; 
+    position: absolute; 
+    border-radius: 10px; 
+    border: 3px #FE7211 solid
+}
+.zapomnit_na_etom_komputere {
+    width: 639px; 
+    height: 88px; 
+    left: 830px; 
+    top: 1065px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.60); 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.knopka {
+    width: 291px; 
+    height: 135px; 
+    left: 755px; 
+    top: 1218px; 
+    position: absolute; 
+    background: #F5F5F5; 
+    border-radius: 10px; 
+    border: 1px #FE7211 solid;
+    font-size: 48px;
+}
+.knopka1 {
+    width: 380px; 
+    height: 135px; 
+    left: 1093px; 
+    top: 1221px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 10px; 
+    border: 1px #FE7211 solid;
+    font-size: 48px;
+}
+.knopka2 {
+    width: 345px; 
+    height: 178px; 
+    left: 755px; 
+    top: 1450px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 10px; 
+    border: 3px #FE7211 solid;
+}
+.image1 {
+    width: 84px; 
+    height: 94px; 
+    left: 776px; 
+    top: 1491px; 
+    position: absolute
+}
+.knopka3 {
+    width: 347px; 
+    height: 178px; 
+    left: 1126px; 
+    top: 1450px; 
+    position: absolute; 
+    background: white; 
+    border-radius: 10px; 
+    border: 3px #FE7211 solid
+}
+.Rectangle2 {
+    width: 2230px; 
+    height: 401px; 
+    left: 0px; 
+    top: 1966px; 
+    position: absolute; 
+    background: #23292D
+}
+.Image157 {
+    width: 184px; 
+    height: 177px; 
+    left: 67px; 
+    top: 2016px; 
+    position: absolute
+}
+.slogan2 {
+    width: 992px; 
+    height: 57px; 
+    left: 329px; 
+    top: 2077px; 
+    position: absolute; 
+    color: white; 
+    font-size: 64px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.Image102 {
+    width: 92px; 
+    height: 89px; 
+    left: 1592px; 
+    top: 2078px; 
+    position: absolute
+}
+.Image103 {
+    width: 91px; 
+    height: 89px; 
+    left: 1706px; 
+    top: 2078px; 
+    position: absolute
+}
+.Image104 {
+    width: 91px; 
+    height: 89px; 
+    left: 1819px; 
+    top: 2078px; 
+    position: absolute
+}
+.Image105 {
+    width: 92px; 
+    height: 89px; 
+    left: 1920px; 
+    top: 2078px; 
+    position: absolute
+}
+.Image106 {
+    width: 92px; 
+    height: 89px; 
+    left: 2034px; 
+    top: 2078px; 
+    position: absolute
+}
+.soch_seti {
+    width: 529px; 
+    height: 52px; 
+    left: 1592px; 
+    top: 2016px; 
+    position: absolute; 
+    color: white; 
+    font-size: 40px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.a090207 {
+    width: 1390px; 
+    height: 18px; 
+    left: 67px; 
+    top: 2299px; 
+    position: absolute; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.razrabotchik {
+    width: 1185px; 
+    height: 48px; 
+    left: 67px; 
+    top: 2251px; 
+    position: absolute; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}

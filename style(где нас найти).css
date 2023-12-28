@@ -1,0 +1,288 @@
+.korzina {
+    width: 74px; 
+    height: 73px;
+    left: 1620px; 
+    top: 61px; 
+    position: absolute
+}
+.korzina_text {
+    width: 148px; 
+    height: 42px; 
+    left: 1598px; 
+    top: 146px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.vxod {
+    width: 75px; 
+    height: 73px; 
+    left: 1405px; 
+    top: 61px; 
+    position: absolute
+}
+.vxod_text {
+    width: 108px; 
+    height: 42px; 
+    left: 1395px; 
+    top: 146px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.slogan {
+    width: 683px; 
+    height: 42px; 
+    left: 507px; 
+    top: 92px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.logotip {
+    width: 413.25px; 
+    height: 365px; 
+    left: 10px; 
+    top: 10px; 
+    position: absolute
+}
+.turistiko {
+    width: 373.87px; 
+    height: 56.25px; 
+    left: 35px; 
+    top: 362px; 
+    position: absolute; 
+    color: black; 
+    font-size: 72px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.o_nas {
+    width: 404px; 
+    height: 116px; 
+    left: 849px; 
+    top: 429px; 
+    position: absolute; 
+    color: black; 
+    font-size: 96px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.gde_nas_nayti {
+    width: 404px; 
+    height: 116px; 
+    left: 750px; 
+    top: 400px; 
+    position: absolute; 
+    color: black; 
+    font-size: 64px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.nazad {
+    width: 535px; 
+    height: 59px; 
+    left: 1310px; 
+    top: 399px; 
+    position: absolute; 
+    color: black; 
+    font-size: 36px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.adres {
+    width: 440px; 
+    height: 44px; 
+    left: 1149px; 
+    top: 601px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.kontaktu {
+    width: 363px; 
+    height: 87px; 
+    left: 1149px; 
+    top: 773px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.email {
+    width: 596px; 
+    height: 87px; 
+    left: 1149px; 
+    top: 988px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.karta {
+    width: 30%; 
+    height: 1509px; 
+    left: 100px; 
+    top: 590px; 
+    position: absolute; 
+    border-radius: 168.75px
+}
+.image1 {
+    width: 1836px; 
+    height: 665px; 
+    left: 5px; 
+    top: 1177px; 
+    position: absolute
+}
+.turistik {
+    width: 310px; 
+    height: 54px; 
+    left: 1501px; 
+    top: 1219px; 
+    position: absolute; 
+    text-align: right; 
+    color: white; 
+    font-size: 48px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.object {
+    width: 359px; 
+    height: 117px; 
+    left: 9px; 
+    top: 1554px;
+    position: absolute; 
+    background: #FE7211; 
+    border-top-right-radius: 100px
+}
+.priroda {
+    width: 267px; 
+    height: 105px; 
+    left: 29px; 
+    top: 1570px; 
+    position: absolute; 
+    color: white; 
+    font-size: 36px; 
+    font-family: Jost; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.rectalege {
+    width: 1836px; 
+    height: 343px; 
+    left: 9px; 
+    top: 1876px; 
+    position: absolute; 
+    background: #23292D
+}
+.soch_seti {
+    width: 435px; 
+    height: 44px; 
+    left: 1320px; 
+    top: 1921px; 
+    position: absolute; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.spechialnist {
+    width: 1144px; 
+    height: 17px; 
+    left: 64px; 
+    top: 2162px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.razrabotchik {
+    width: 976px; 
+    height: 40px; 
+    left: 64px; 
+    top: 2122px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.setu1 {
+    width: 74px; 
+    height: 76px; 
+    left: 1320px; 
+    top: 1973px; 
+    position: absolute" 
+}
+.setu2 {
+    width: 76px; 
+    height: 76px; 
+    left: 1412px;
+    top: 1973px;
+    position: absolute
+}
+.setu3 {
+    width: 76px; 
+    height: 76px; 
+    left: 1506px; 
+    top: 1973px; 
+    position: absolute
+}
+.setu4 {
+    width: 76px; 
+    height: 76px; 
+    left: 1590px; 
+    top: 1973px; 
+    position: absolute
+}
+.setu5 {
+    width: 76px; 
+    height: 76px; 
+    left: 1684px; 
+    top: 1973px; 
+    position: absolute
+}
+.image_1 {
+    width: 150px; 
+    height: 151px; 
+    left: 64px; 
+    top: 1921px; 
+    position: absolute
+}
+.slogan2 {
+    width: 731px; 
+    height: 49px; 
+    left: 450px; 
+    top: 1972px; 
+    position: absolute; 
+    color: white; 
+    font-size: 40px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}

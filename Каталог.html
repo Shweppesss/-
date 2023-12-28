@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" type="text/css" href="style(каталог).css">
+</head>
+<body>
+    <div class="shapka">
+        <a href="Корзина пустая.html"><img class="ikonka_korzina" src="Content/Иконка корзины.png" /></a>
+        <a href="Корзина пустая.html"><div class="korzina">Корзина</div></a>
+        <a href="Вход.html"><img class="ikonka_polzovatelya" src="Content/Значок пользователя.png" /></a>
+        <a href="Вход.html"><div class="vxod">Войти</div></a>
+        <div class="slogan">"Готовьтесь к приключениям с нами!"</div>
+        <img class="logotip" src="Content/Логотип.jpg" />
+        <div class="turistiko">ТуристиКО</div>
+    </div>
+    <div class="zagolovok">
+        <div class="katalog">Каталог</div>
+        <a href="Главная.html"><div class="vernutsya_na_glavnuyu">Вернуться на главную</div></a>
+    </div>
+    <div class="filtr">
+        <div class="filtr_zagolovok">Фильтр</div>
+        <div class="proizvodstvo">По году производста</div>
+        <div class="naimenovanie">По наименованию</div>
+        <div class="chena">По цене</div>
+        <img class="strelka" src="Content/Галочка.png" />
+        <img class="strelka2" src="Content/Галочка.png" />
+        <img class="strelka1" src="Content/Галочка.png" />
+        <div><input type="checkbox" style="width: 28px; height: 27px; left: 112px; top: 888px; position: absolute; border-radius: 5px;"></div>
+        <div><input type="checkbox" style="width: 28px; height: 27px; left: 112px; top: 848px; position: absolute; border-radius: 5px;"></div>
+
+        <div class="ot">от</div>
+        <div><input type="text" placeholder="0" style="width: 88px; height: 25px; left: 159px; top: 994px; position: absolute; background: #D9D9D9"></div>
+        <div class="do">до</div>
+        <div><input type="text" placeholder="50000" style="width: 87px; height: 25px; left: 308px; top: 994px; position: absolute; background: #D9D9D9"></div>
+        <div class="ot_A_do_YA">от А до Я</div>
+        <div class="ot_YA_do_A">от Я до А</div>
+        <div><input type="checkbox" style="width: 28px; height: 25px; left: 112px; top: 748px; position: absolute; border-radius: 5px;"></div>
+        <div><input type="checkbox" style="width: 28px; height: 26px; left: 112px; top: 705px; position: absolute; border-radius: 5px;"></div>
+        <div class="po_yubivaniyu">по убыванию</div>
+        <div class="po_vozrostaniyu">по возрастанию</div>
+    </div>
+    
+    <input type="checkbox" id="inventory" name="goods" style="width: 27px; height: 27px; left: 220px; top: 1078px; position: absolute; border-radius: 5px;" />
+    <label for="inventory" style="width: 159px; height: 37px; left: 112px; top: 1082px; position: absolute" >Инвентарь</label>
+    <input type="checkbox" id="clothes" name="goods" style="width: 28px; height: 27px; left: 220px; top: 1122px; position: absolute;; border-radius: 5px;"/>
+    <label for="clothes" style="width: 121px; height: 36px; left: 112px; top: 1126px; position: absolute">Одежда</label>
+    <input type="checkbox" id="accessories" name="goods" style="width: 28px; height: 27px; left: 220px; top: 1167px; position: absolute; border-radius: 5px;"/>
+    <label for="accessories" style="width: 180px; height: 35px; left: 112px; top: 1169px; position: absolute">Аксессуары</label>
+
+    <div class="cataloge">
+        <div class="buy inventory">
+            <img src="Content/image4.png" alt="">
+            <div class="buySum"><a href="страница товара.html">45 990 руб.</a></div>
+            <div class="buyStar">
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <div class="buyReview">9 отзывов</div>
+            </div>
+            <div class="buyName">Палатка Salewa Sierra Leone 2 Tent Lightgrey/Cactus</div>
+        </div>
+
+        <div class="buy clothes">
+            <img src="Content/image10.png" />
+            <div class="buySum">13 990 руб.</div>
+            <div class="buyStar">
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <div class="buyReview">0 отзывов</div>
+            </div>
+            <div class="buyName">Спальник Deuter Orbit -5° L левый Mandarine/Ink</div>
+        </div>
+
+        <div class="buy accessories">
+            <img src="Content/image3.png" alt="">
+            <div class="buySum">45 990 руб.</div>
+            <div class="buyStar">
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <div class="buyReview">9 отзывов</div>
+            </div>
+            <div class="buyName">Палатка Salewa Sierra Leone 2 Tent Lightgrey/Cactus</div>
+        </div>
+
+        <div class="buy accessories">
+            <img src="Content/image10.png" />
+            <div class="buySum">13 990 руб.</div>
+            <div class="buyStar">
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <div class="buyReview">0 отзывов</div>
+            </div>
+            <div class="buyName">Спальник Deuter Orbit -5° L левый Mandarine/Ink</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image4.png" alt="">
+            <div class="buySum">45 990 руб.</div>
+            <div class="buyStar">
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <div class="buyReview">9 отзывов</div>
+            </div>
+            <div class="buyName">Палатка Salewa Sierra Leone 2 Tent Lightgrey/Cactus</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image10.png" />
+            <div class="buySum">13 990 руб.</div>
+            <div class="buyStar">
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <div class="buyReview">0 отзывов</div>
+            </div>
+            <div class="buyName">Спальник Deuter Orbit -5° L левый Mandarine/Ink</div>
+        </div>
+
+        <div class="buy inventory">
+            <img src="Content/image4.png" alt="">
+            <div class="buySum">45 990 руб.</div>
+            <div class="buyStar">
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <div class="buyReview">9 отзывов</div>
+            </div>
+            <div class="buyName">Палатка Salewa Sierra Leone 2 Tent Lightgrey/Cactus</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image10.png" />
+            <div class="buySum">13 990 руб.</div>
+            <div class="buyStar">
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <div class="buyReview">0 отзывов</div>
+            </div>
+            <div class="buyName">Спальник Deuter Orbit -5° L левый Mandarine/Ink</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image4.png" alt="">
+            <div class="buySum">45 990 руб.</div>
+            <div class="buyStar">
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <div class="buyReview">9 отзывов</div>
+            </div>
+            <div class="buyName">Палатка Salewa Sierra Leone 2 Tent Lightgrey/Cactus</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image10.png" />
+            <div class="buySum">13 990 руб.</div>
+            <div class="buyStar">
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <div class="buyReview">0 отзывов</div>
+            </div>
+            <div class="buyName">Спальник Deuter Orbit -5° L левый Mandarine/Ink</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image4.png" alt="">
+            <div class="buySum">45 990 руб.</div>
+            <div class="buyStar">
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <div class="buyReview">9 отзывов</div>
+            </div>
+            <div class="buyName">Палатка Salewa Sierra Leone 2 Tent Lightgrey/Cactus</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image10.png" />
+            <div class="buySum">13 990 руб.</div>
+            <div class="buyStar">
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <div class="buyReview">0 отзывов</div>
+            </div>
+            <div class="buyName">Спальник Deuter Orbit -5° L левый Mandarine/Ink</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image4.png" alt="">
+            <div class="buySum">45 990 руб.</div>
+            <div class="buyStar">
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <div class="buyReview">9 отзывов</div>
+            </div>
+            <div class="buyName">Палатка Salewa Sierra Leone 2 Tent Lightgrey/Cactus</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image10.png" />
+            <div class="buySum">13 990 руб.</div>
+            <div class="buyStar">
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <div class="buyReview">0 отзывов</div>
+            </div>
+            <div class="buyName">Спальник Deuter Orbit -5° L левый Mandarine/Ink</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image4.png" alt="">
+            <div class="buySum">45 990 руб.</div>
+            <div class="buyStar">
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <div class="buyReview">9 отзывов</div>
+            </div>
+            <div class="buyName">Палатка Salewa Sierra Leone 2 Tent Lightgrey/Cactus</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image10.png" />
+            <div class="buySum">13 990 руб.</div>
+            <div class="buyStar">
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <div class="buyReview">0 отзывов</div>
+            </div>
+            <div class="buyName">Спальник Deuter Orbit -5° L левый Mandarine/Ink</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image4.png" alt="">
+            <div class="buySum">45 990 руб.</div>
+            <div class="buyStar">
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <img class="star5" src="Content/Звезда.png" />
+                <div class="buyReview">9 отзывов</div>
+            </div>
+            <div class="buyName">Палатка Salewa Sierra Leone 2 Tent Lightgrey/Cactus</div>
+        </div>
+
+        <div class="buy">
+            <img src="Content/image10.png" />
+            <div class="buySum">13 990 руб.</div>
+            <div class="buyStar">
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <img class="star11" src="Content/звезда пустая.png" />
+                <div class="buyReview">0 отзывов</div>
+            </div>
+            <div class="buyName">Спальник Deuter Orbit -5° L левый Mandarine/Ink</div>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img class="image_banner" src="Content/баннер1.png" />
+        <div class="object"></div>
+        <div class="priroda">Природа <br/>зовёт!!!</div>
+        <div class="otdix">Всё для отдыха<br/>на природе</div>
+        <div class="turistiko_1">ТуристиКО</div>
+    </div>
+    <div class="podval">
+        <div class="rectalage"></div>
+        <img class="imgage1" src="Content/image157.png" />
+        <div class="slogan1">Больше спорта - ярче жизнь!</div>
+        <div class="soch_seti">Наши социальные сети:</div>
+        <div class="spechialnosty">Специальность: Информационные системы и программирования 09.02.07</div>
+        <div class="razrabotchik">Разработчик: Швецов Андрей Алексеевич студент группы 1-ИС </div>
+        <img class="seti1" src="Content/image102.png" />
+        <img class="seti2" src="Content/image103.png" />
+        <img class="seti3" src="Content/image104.png" />
+        <img class="seti4" src="Content/image105.png" />
+        <img class="seti5" src="Content/image106.png" />
+    </div>    
+</body>
+</html>

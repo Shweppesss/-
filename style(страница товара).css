@@ -1,0 +1,334 @@
+.image_tovar {
+    width: 904px; 
+    height: 990px; 
+    left: 77px; 
+    top: 60px; 
+    position: absolute
+}
+.nazvanie_tovara {
+    width: 600px; 
+    height: 134px; 
+    left: 1058px; 
+    top: 28px; 
+    position: absolute; 
+    color: black; 
+    font-size: 42px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.zvezda1 {
+    width: 39px; 
+    height: 38px; 
+    left: 1058px; 
+    top: 162px; 
+    position: absolute
+}
+.zvezda2 {
+    width: 37px; 
+    height: 38px; 
+    left: 1108px; 
+    top: 162px; 
+    position: absolute
+}
+.zvezda3 {
+    width: 37px; 
+    height: 38px; 
+    left: 1156px; 
+    top: 162px; 
+    position: absolute
+}
+.zvezda4 {
+    width: 37px;
+    height: 38px; 
+    left: 1204px; 
+    top: 162px; 
+    position: absolute
+}
+.zvezda5 {
+    width: 37px; 
+    height: 38px; 
+    left: 1252px; 
+    top: 162px; 
+    position: absolute
+}
+.otziv {
+    width: 120px; 
+    height: 29px; 
+    left: 1317px; 
+    top: 171px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.48); 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.articul {
+    width: 248px; 
+    height: 29px; 
+    left: 1525px; 
+    top: 169px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.a45_990 {
+    width: 319px; 
+    height: 67px; 
+    left: 1058px; 
+    top: 244px; 
+    position: absolute;
+    color: black; 
+    font-size: 48px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.knopka1 {
+    width: 335px; 
+    height: 70px; 
+    left: 1058px; 
+    top: 356px; 
+    position: absolute; 
+    background: #FE862D;
+    border-color: orange;
+    font-size: 32px;
+    color: white;
+}
+.knopka2 {
+    width: 333px; 
+    height: 70px; 
+    left: 1461px;
+    top: 356px; 
+    position: absolute; 
+    background: #FE7E1F;
+    border-color: orange;
+    font-size: 28px;
+    color: white;
+}
+.line {
+    width: 735px; 
+    height: 0px; 
+    left: 1058px; 
+    top: 521px; position: 
+    absolute; 
+    border: 1px #FE7211 solid
+}
+.opisanie {
+    width: 260px; 
+    height: 37px; 
+    left: 1350px; 
+    top: 484px; 
+    position: absolute;
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+.zagolovok {
+    width: 819px; 
+    height: 117px; 
+    left: 102px; 
+    top: 1248px; 
+    position: absolute; 
+    color: #FE7211; 
+    font-size: 64px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.image1 {
+    width: 454px; 
+    height: 608px; 
+    left: 102px; 
+    top: 1365px; 
+    position: absolute
+}
+.Salewa_Litetrek_3_Tent {
+    width: 360px; 
+    height: 58px; 
+    left: 102px; 
+    top: 2054px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image2 {
+    width: 452px; 
+    height: 608px; 
+    left: 675px; 
+    top: 1365px; 
+    position: absolute
+}
+.a40_190 {
+    width: 205px; 
+    height: 44px; 
+    left: 675px; 
+    top: 1998px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.a43_090 {
+    width: 213px; 
+    height: 45px; 
+    left: 102px; 
+    top: 1998px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.Salewa_Denali_lv_Tent {
+    width: 353px; 
+    height: 58px; 
+    left: 675px; 
+    top: 2054px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.image3 {
+    width: 454px; 
+    height: 608px; 
+    left: 1284px; 
+    top: 1365px; 
+    position: absolute
+}
+.a28_690 {
+    width: 212px; 
+    height: 44px; 
+    left: 1284px; 
+    top: 1998px; 
+    position: absolute; 
+    color: black; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.Salewa_Micra_2_Tent_Cactus_Grey {
+    width: 485px; 
+    height: 29px; 
+    left: 1284px; 
+    top: 2054px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 400;
+    word-wrap: break-word
+}
+.ractalage {
+    width: 1840px; 
+    height: 347px; 
+    left: 0px; top: 
+    2177px; 
+    position: absolute; 
+    background: #23292D
+}
+.image4 {
+    width: 152px; 
+    height: 152px; 
+    left: 55px; 
+    top: 2222px; 
+    position: absolute
+}
+.slogan {
+    width: 731px; 
+    height: 48px; 
+    left: 338px; 
+    top: 2274px; 
+    position: absolute; 
+    color: white; 
+    font-size: 48px; 
+    font-family: JejuHallasan; 
+    font-weight: 400; 
+    word-wrap: break-word
+}
+.seti1 {
+    width: 76px; 
+    height: 76px; 
+    left: 1313px;
+    top: 2275px; 
+    position: absolute
+}
+.seti2 {
+    width: 76px; 
+    height: 76px; 
+    left: 1407px; 
+    top: 2275px; 
+    position: absolute
+}
+.seti3 {
+    width: 76px; 
+    height: 76px; 
+    left: 1501px; 
+    top: 2275px; 
+    position: absolute
+}
+.seti4 {
+    width: 76px; 
+    height: 76px; 
+    left: 1585px; 
+    top: 2275px; 
+    position: absolute
+}
+.seti5 {
+    width: 76px; 
+    height: 76px; 
+    left: 1679px; 
+    top: 2275px; 
+    position: absolute
+}
+.soch_seti {
+    width: 437px; 
+    height: 44px; 
+    left: 1313px; 
+    top: 2222px; 
+    position: absolute; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.spechialnist {
+    width: 1148px; 
+    height: 17px; 
+    left: 55px; 
+    top: 2471px; 
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.razraabotchik {
+    width: 978px; 
+    height: 42px; 
+    left: 55px; 
+    top: 2423px;
+    position: absolute; 
+    color: white; 
+    font-size: 24px; 
+    font-family: Inter; 
+    font-weight: 700; word-wrap: break-word
+}
